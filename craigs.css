@@ -1,0 +1,313 @@
+/* =========================================
+   GENERAL
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    color: #000;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+
+
+/* =========================================
+   LINKS
+========================================= */
+
+a {
+    color: #0000cc;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #551a8b;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.header {
+    width: 1000px;
+    height: 70px;
+    position: relative;
+    display: block;
+}
+
+.logo {
+    display: inline-block;
+    width: 220px;
+    vertical-align: top;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+
+.logo a {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title {
+    display: inline-block;
+    width: 375px;
+    height: 45px;
+    background-color: #e5e5e5;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.location {
+    display: inline-block;
+    width: 390px;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 8px;
+}
+
+.location select {
+    width: 220px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.location button {
+    width: 55px;
+    height: 34px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+
+/* =========================================
+   MAIN
+========================================= */
+
+.main {
+    width: 1000px;
+    display: block;
+}
+
+
+/* =========================================
+   LEFT SIDEBAR
+========================================= */
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    min-height: 890px;
+    background-color: #e0e0e0;
+    padding: 12px;
+}
+
+.sidebar-links {
+    width: 180px;
+    padding: 3px;
+}
+
+.sidebar-links a {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+
+/* Search */
+
+.search-box {
+    background-color: #cccccc;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+.search-box h2 {
+    background-color: #dddddd;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 5px 0;
+    padding: 2px 5px;
+}
+
+.search-box input {
+    width: 155px;
+    height: 35px;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #aaa;
+}
+
+.search-box select {
+    width: 155px;
+    height: 34px;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+.search-box button {
+    width: 80px;
+    height: 34px;
+    font-size: 16px;
+}
+
+
+/* Sidebar menu */
+
+.sidebar-menu {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sidebar-menu a {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.email {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.email a {
+    font-size: 14px;
+    background-color: white;
+    padding: 5px;
+}
+
+.updated {
+    text-align: center;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   COLUMNS
+========================================= */
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.community {
+    width: 230px;
+}
+
+.housing {
+    width: 235px;
+}
+
+.jobs {
+    width: 260px;
+}
+
+
+/* =========================================
+   CATEGORY
+========================================= */
+
+.category {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.category h2 {
+    background-color: #dddddd;
+    font-size: 22px;
+    margin: 0;
+    padding: 5px 8px;
+    white-space: nowrap;
+}
+
+.category a,
+.category .normal {
+    display: block;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dddddd;
+    padding: 4px 5px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.category .normal {
+    color: #222;
+    text-decoration: none;
+}
+/* =========================================
+   BOTTOM COMMUNITY LINKS
+========================================= */
+
+.bottom-links {
+    margin-top: 40px;
+}
+
+.bottom-links a {
+    display: block;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.discussion {
+    margin-top: 48px;
+    margin-left: 8px;
+}
+
+.discussion a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   HOUSING BOTTOM
+========================================= */
+
+.housing-bottom {
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.housing-bottom a {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.housing-bottom .big-link {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   JOBS
+========================================= */
+
+.jobs .category {
+    overflow: hidden;
+}
+
+.jobs .category a {
+    font-size: 18px;
+}
